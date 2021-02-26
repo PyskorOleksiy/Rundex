@@ -1,0 +1,19 @@
+[0220/230951.277:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/230951.293:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/230951.293:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/230951.293:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/230951.293:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/230951.293:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/231951.274:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/231951.274:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/231951.274:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/231951.274:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/231951.274:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/231951.274:ERROR:crash_report_database_win.cc(496)] failed to stat report
+[0220/231951.274:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Asus\AppData\Local\Google\Chrome\User Data\Crashpad\reports\35b39240-3bc8-4e10-9cb7-2a1aeb20cb08.dmp: Не удается найти указанный файл. (0x2)
+[0220/231951.274:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Asus\AppData\Local\Google\Chrome\User Data\Crashpad\reports\bb64f50e-07ff-4100-9fb3-e5d39b1207ac.dmp: Не удается найти указанный файл. (0x2)
+[0220/231951.274:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Asus\AppData\Local\Google\Chrome\User Data\Crashpad\reports\02d18bea-6fbf-4629-9e4f-f93871392c9b.dmp: Не удается найти указанный файл. (0x2)
+[0220/231951.274:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Asus\AppData\Local\Google\Chrome\User Data\Crashpad\reports\b0bb4741-d6b1-4605-aac5-055e7eb80e54.dmp: Не удается найти указанный файл. (0x2)
+[0220/231951.274:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Asus\AppData\Local\Google\Chrome\User Data\Crashpad\reports\6aaed8f3-c9b1-42d4-9af6-a654b223624a.dmp: Не удается найти указанный файл. (0x2)
+[0220/231951.274:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Asus\AppData\Local\Google\Chrome\User Data\Crashpad\reports\e2d89c3d-03de-4b6c-ba63-a0ceaa4a4b3f.dmp: Не удается найти указанный файл. (0x2)
+[0220/231951.274:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

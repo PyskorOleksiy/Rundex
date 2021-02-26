@@ -1,0 +1,570 @@
+body {
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+	font-size: 30px;
+	color: #14396D;
+	line-height: 1.6;
+}
+
+*,
+*: before,
+*: after {
+	box-sizing: border-box;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Container */
+.container {
+	width: 100%;
+	max-width: 1070px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.container_inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section_header {
+	width: 100%;
+	max-width: 463px;
+}
+
+.section_logo {
+	margin: 0 auto;
+}
+
+.section_suptitle {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: #00BAEC;
+}
+
+.section_title {
+	margin-top: 10px;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+/* Top_header */
+
+.top_header {
+	width: 100%;
+	background-color: #F3F8FC;
+}
+
+.container_header {
+	width: 100%;
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.estimate_call_container {
+	width: 100%;
+	max-width: 296px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.estimate_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.estimate_phone {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.social_media {
+	padding: 23px 0;
+	width: 100%;
+	max-width: 150px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.top_link {
+	color: #14396D;
+}
+
+/* Lower_header */
+
+.lower_header {
+	padding-top: 18px;
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 0 0 5px 5px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 590px;
+	padding: 17px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.nav_link {
+	color: #004976;
+}
+
+.btn {
+	padding: 14px 0;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 161px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 3px;
+	border: 1px solid #FEDB41;
+	background-color: #FEDB41;
+	text-align: center;
+	color: #14396D;
+}
+
+/* Intro */
+
+.section_intro {
+	position: relative;
+	margin-top: 182px;
+	padding: 148px 0;
+	background-color: #14396D;
+}
+
+.intro_title {
+	text-align: center;
+	font-size: 80px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+.navigator {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	bottom: 0;
+	right: 170px;
+	width: 100%;
+	max-width: 201px;
+	padding: 20px 40px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #004976;
+}
+
+.navigator_link {
+	color: #004976;
+}
+
+.arrow {
+	margin-top: 5px; 
+}
+
+/* Mary Ann */
+
+.section_mary_ann {
+	padding: 148px 0;
+}
+
+.container_mary_ann {
+	margin-left: 164px;
+	padding-left: 15px;
+	width: 100%;
+	max-width: 1340px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container_dots {
+	position: relative;
+	margin-top: 78px;
+	width: 100%;
+	width: 547px;
+	height: 630px;
+	background-image: url("../img/dots.png");
+	border-radius: 0 50px;
+}
+
+.mary_ann_image {
+	position: absolute;
+	top: -78px;
+	right: 0;
+	width: 480px;
+	height: 630px;
+	border-top-left-radius: 50px;
+	background-color: #B3B3B3;
+}
+
+.mary_ann_content {
+	padding: 118px 84px;
+	width: 100%;
+	max-width: 567px;
+	height: 394px;
+	background-color: #F6FBFF;
+}
+
+.mary_ann_title {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.mary_ann_subtitle {
+	margin-top: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #00BAEC;
+}
+
+.mary_ann_text {
+	margin-top: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #004976;
+	opacity: 0.7;
+}
+
+.container_icon {
+	margin-top: 56px;
+	width: 157px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main_icon {
+	font-size: 20px;
+	color: #14396D;
+}
+
+.soc_icon {
+	font-size: 18px;
+}
+
+.mary_ann_phone {
+	margin-top: 20px;
+	line-height: 1.2;
+	width: 180px;
+}
+
+.mary_ann_address {
+	margin-top: 5px;
+	line-height: 1.2;
+	width: 416px;
+}
+
+.mary_ann_email {
+	margin-top: 5px;
+	line-height: 1.2;
+	width: 200px;
+}
+
+.title_name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #004976;
+}
+
+.title_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #004976;
+	opacity: 0.7;
+}
+
+/* Skillset */
+
+.section_skillset {
+	padding-bottom: 148px;
+}
+
+.container_progress {
+	margin-top: 78px;
+}
+
+.skill_item {
+	margin-bottom: 25px;
+}
+
+.rate {
+	width: 570px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.skillset_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #14396D;
+	opacity: 0.7;
+}
+
+.skill_bar {
+	margin-top: 20px;
+	width: 100%;
+	max-width: 570px;
+	height: 20px;
+	border-radius: 60px;
+	background-color: rgba(20,57,109,0.1);
+}
+
+.skill_bar_progress {
+	width: 75%;
+	height: 100%;
+	background-color: #01F0DB;
+	border-radius: 60px;
+}
+
+.skillset_image {
+	width: 440px;
+	height: 630px;
+	border-top-right-radius: 50px;
+	background-color: #B3B3B3; 
+}
+
+/* Footer */
+
+.section_footer {
+	padding-top: 148px;
+	background-color: #14396D;
+}
+
+/* Contacts and Information */
+
+.container_contacts {
+	padding-bottom: 76px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_column {
+	width: 100%;
+	max-width: 300px;
+}
+
+.footer_logo {
+	width: 192px;
+	height: 64px;
+	background: url("../img/footer_logo.png") center no-repeat;
+	background-size: cover;
+}
+
+.contacts_text {
+	margin-top: 43px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+
+.email_form {
+	width: 100%;
+	max-width: 300px;
+	display: flex;
+	margin-top: 58px;
+}
+
+.email_input {
+	width: 77%;
+	padding: 15px;
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	border: 0;
+	color: #14396D;
+	border-radius: 3px 0 0 3px;
+	line-height: 1.1;
+}
+
+.email_input::placeholder {
+	color: #14396D;
+	opacity: 0.5;
+} 
+
+.email_btn {
+	width: 23%;
+	padding: 15px 20px;
+	background-color: #00BAEC;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: 0;
+	border-radius: 0 3px 3px 0;
+	line-height: 1.1;
+	transition: background .2s linear;
+}
+
+.email_btn::placeholder {
+	color: #FFFFFF;
+	opacity: 0.7;
+} 
+
+.email_btn:hover {
+	background-color: #0087EE;
+}
+
+.footer_title {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.services_list {
+	margin-top: 43px;
+	list-style-type: none;
+	padding-left: 0; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+
+.services_list li {
+	margin-bottom: 15px;
+}
+
+.links {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.block_contact_us {
+	position: relative;
+	height: 277px;
+}
+
+.contact_information {
+	margin-top: 43px;
+	width: 100%;
+	max-width: 324px;
+	line-height: 2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.phone_email {
+	font-weight: 500;
+	opacity: 0.8;
+}
+
+.address {
+	font-weight: 400;
+	opacity: 0.7;
+	line-height: 1;
+}
+
+.house_number {
+	margin-right: 5px;
+}
+
+.footer_social_meadia {
+	width: 100%;
+	max-width: 190px;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	bottom: 0;
+	font-size: 18px;
+}
+
+.social_media_circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.media_block {
+	margin-top: 6px;
+}
+
+.facebook_link {
+	color: #003072;
+}
+
+.twitter_link {
+	color: #00BAEC;
+}
+
+.pinterest_link {
+	color: #027E9F;
+}
+
+.instagram_link {
+	color: #F001C8;
+}
+
+/* Lower_footer */
+
+.lower_footer {
+	bottom: 0;
+	width: 100%;
+	padding: 8px 0;
+	background-color: #0D2B55;
+}
+
+.container_footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.privacy_policy {
+	width: 100%;
+	max-width: 137px;
+	margin-top: 5px;
+}
+
+.footer_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FFFFFF;
+	opacity: 0.6;
+	text-decoration: none;
+}
