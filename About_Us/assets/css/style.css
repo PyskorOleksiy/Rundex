@@ -58,6 +58,32 @@ a {
 	font-weight: 700;
 }
 
+/* Rectangle */
+
+.container_features_image {
+	width: 100%;
+	max-width: 553px;
+}
+
+.container_features_dots {
+	position: relative;
+	margin-top: 450px;
+	width: 100%;
+	width: 263px;
+	height: 240px;
+	background-image: url("../img/blue_dots.png");
+}
+
+.features_image {
+	position: absolute;
+	top: -450px;
+	left: 35px;
+	width: 510px;
+	height: 630px;
+	border-radius: 0 50px;
+	background-color: #B3B3B3;
+}
+
 /* Header */
 .header {
 	width: 100%;
@@ -200,7 +226,7 @@ a {
 /* About Us */
 
 .section_about_us {
-	padding-top: 148px;
+	padding-top: 138px;
 	padding-bottom: 86px; 
 }
 
@@ -214,13 +240,16 @@ a {
 }
 
 .container_about_us_rectangle {
+	margin-top: 66px;
 	position: relative;
 	width: 100%;
 	max-width: 547px;
 	height: 696px;
+	background-image: url("../img/dots.png");
 }
 
 .about_us_rectangle {
+	margin-top: -46px;
 	position: absolute;
 	right: 0;
 	width: 100%;
@@ -232,7 +261,7 @@ a {
 
 .about_us_phone {
 	position: absolute;
-	bottom: 0;
+	bottom: 94px;
 	width: 100%;
 	max-width: 547px;
 	height: 200px;
@@ -511,6 +540,7 @@ a {
 	border-radius: 40px 0;
 	box-shadow: 0px 10px 80px rgba(11,45,91);
 	cursor: pointer;
+	transition: all .2s linear;
 }
 
 .fun_fact_item:hover {
@@ -577,6 +607,7 @@ a {
 	border: 6px solid #FFFFFF;
 	border-radius: 0 15px;
 	transition: all .2s linear;
+	cursor: pointer;
 }
 
 .lower_rectangle:hover {
@@ -621,7 +652,6 @@ a {
 	font-size: 18px;
 	font-weight: 400;
 	color: #0E182B;
-	opacity: 0.7;
 }
 
 /* Footer */
