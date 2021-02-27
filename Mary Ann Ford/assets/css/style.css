@@ -347,7 +347,28 @@ a {
 	background-color: rgba(20,57,109,0.1);
 }
 
-.skill_bar_progress {
+.skill_bar_housekeeping {
+	width: 75%;
+	height: 100%;
+	background-color: #01F0DB;
+	border-radius: 60px;
+}
+
+.skill_bar_deep {
+	width: 90%;
+	height: 100%;
+	background-color: #01F0DB;
+	border-radius: 60px;
+}
+
+.skill_bar_window {
+	width: 80%;
+	height: 100%;
+	background-color: #01F0DB;
+	border-radius: 60px;
+}
+
+.skill_bar_wash {
 	width: 75%;
 	height: 100%;
 	background-color: #01F0DB;
